@@ -11,6 +11,10 @@
         android:id="@+id/myTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
+        app:tabSelectedTextColor="@color/black"
+        app:tabIndicatorColor="@color/black"
+        app:tabMode="scrollable"
         />
 
     <androidx.viewpager.widget.ViewPager
